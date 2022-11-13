@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "39ba426a-4ec0-4023-9b27-6c61decc06cd",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://localhost:4000",
+    "url": "localhost:4000/auth/renew",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-08T20:07:33.960Z",
+    "modified": "2022-11-13T19:37:55.588Z",
+    "headers": [
+      {
+        "name": "x-token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzcxMWNhMjQyZjRmNWNhMGUwNjI0YmUiLCJuYW1lIjoiQW50b25pbyIsImlhdCI6MTY2ODM2NjcwNywiZXhwIjoxNjY4NDUzMTA3fQ.4wm7Piv0KCcKHCfTEB8kddOb4LnU5WZUalll7uqxElw"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "6d5a3528-4c43-431e-b405-4b4f52eea4ab",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:4000/auth/register",
+    "url": "localhost:4000/auth/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-08T20:44:01.146Z",
+    "modified": "2022-11-13T17:55:52.156Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"antonio@email.com\",\n  \"password\": \"123456\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "4daee3ce-7804-4dea-9694-3eb9268971f7",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:4000/auth/login",
+    "url": "localhost:4000/auth/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-09T22:06:07.567Z",
+    "modified": "2022-11-13T19:23:08.552Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"antonio@email.com\",\n  \"password\": \"123456\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
